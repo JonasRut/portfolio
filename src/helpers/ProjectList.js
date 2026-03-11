@@ -4,6 +4,7 @@ import Proj3 from "../assets/KeyHolder3.png";
 import Proj4 from "../assets/CS50xCertificate.png";
 import Proj5 from "../assets/ritLogo.png";
 import Proj6 from "../assets/astro.png";
+import Proj7 from "../assets/ChimeMachine.jpg"; 
 
 export const ProjectList = [
     {
@@ -55,5 +56,12 @@ export const ProjectList = [
         describtion: "A puzzle game were the astronaught has to move its way to the moon but can only move all the way until it hits a robot. A hint button was required that moved the player to the next spot \
         along a solved path.",
         additionalLink: ""
-    }
+    },
+    {
+        name: "Chime Machine",
+        image: Proj7,
+        skills: "OnShape, Arduino",
+        describtion: "A team project in one of my classes was to build a mechanical chime machine. For this project we had to go through the entire engineering process from sketching ideas, to the bill of materials and CAD assembly.",
+        additionalLink: "https://www.youtube.com/watch?v=8grJvUBSAgI"
+    },
 ];
